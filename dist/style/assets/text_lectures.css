@@ -1,0 +1,31 @@
+/* Типографика текста лекции: <article class="lecture"> */
+.lecture{min-width:0;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:clamp(1.25rem,4vw,3rem)}
+.lecture h1{margin:0 0 .5rem;font-size:clamp(1.7rem,4vw,2.5rem);line-height:1.15;letter-spacing:-.02em}
+.lecture .lead{margin:0 0 2rem;font-size:1.1rem;color:var(--muted)}
+.lecture h2{margin:2.5rem 0 .75rem;padding-top:1.25rem;border-top:1px solid var(--line);font-size:1.5rem}
+.lecture h3{margin:1.75rem 0 .5rem;font-size:1.2rem}
+.lecture p,.lecture li{max-width:68ch;font-family:Georgia,Cambria,"Times New Roman",serif;font-size:1.08rem;line-height:1.75}
+code{font:.88em ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;background:var(--code);padding:.1em .35em;border-radius:4px}
+pre{position:relative;margin:1.25rem 0;padding:1rem 1.1rem;overflow-x:auto;background:var(--code);border:1px solid var(--line);border-radius:6px;line-height:1.5}
+pre code{padding:0;background:none}
+.copy{position:absolute;top:.4rem;right:.4rem;padding:.15rem .5rem;font:inherit;font-size:.78rem;color:var(--muted);background:var(--surface);border:1px solid var(--line);border-radius:4px;cursor:pointer}
+.copy:hover{color:var(--ink)}
+.note{margin:1.25rem 0;padding:.75rem 1rem;background:var(--code);border-left:3px solid var(--accent);border-radius:0 6px 6px 0}
+.note p{margin:.25rem 0}
+.table-wrap{overflow-x:auto;margin:1.25rem 0}
+table{width:100%;border-collapse:collapse}
+th,td{padding:.5rem .8rem;border:1px solid var(--line);text-align:left}
+th{background:var(--code)}
+.demo{margin:1.5rem 0;padding:1.25rem;border:1px dashed var(--accent);border-radius:10px}
+.demo-row{display:flex;flex-wrap:wrap;gap:.5rem}
+.demo input{width:5rem;padding:.4rem;font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:6px}
+.demo button{padding:.4rem .8rem;font:inherit;font-weight:600;color:var(--on-accent);background:var(--accent);border:0;border-radius:6px;cursor:pointer}
+.demo button:active{transform:translateY(1px)}
+.chain{display:flex;flex-wrap:wrap;align-items:center;gap:.4rem;margin-top:1.1rem}
+.node{min-width:2.8rem;padding:.4rem .7rem;text-align:center;font-weight:700;border:2px solid var(--ink);border-radius:6px;background:var(--surface)}
+.ptr{font:600 .85rem ui-monospace,Menlo,Consolas,monospace;color:var(--muted)}
+.arr{color:var(--muted)}
+.pager{display:flex;justify-content:space-between;gap:1rem;margin-top:1.5rem}
+.pager a{padding:.7rem 1rem;border:1px solid var(--line);border-radius:6px;background:var(--surface);text-decoration:none;font-weight:600}
+.pager a:hover{border-color:var(--accent)}
+.stub-tag{display:inline-block;margin:0 0 1rem;padding:.2rem .7rem;font-weight:600;font-size:.9rem;color:var(--on-accent);background:var(--accent);border-radius:6px}

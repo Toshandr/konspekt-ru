@@ -1,0 +1,32 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" type="image/svg+xml" href="/style/assets/favicon.svg">
+<link rel="stylesheet" href="/style/assets/main.css">
+<link rel="stylesheet" href="/style/assets/lectures.css"><link rel="stylesheet" href="/style/assets/text_lectures.css">
+<title>Что такое структуры данных — Конспекты.ру</title></head>
+<body data-course="structeres" data-sidebar>
+<div class="wrap layout"><div class="content"><article class="lecture">
+<h1>Что такое структуры данных</h1>
+<p class="lead">Лекция 1. Пример оформления: замените текст своим конспектом.</p>
+
+<h2>Определение</h2>
+<p><b>Структура данных</b> — способ хранения и организации данных, при котором определён набор операций над ними: добавление, поиск, удаление, обход.</p>
+<div class="note"><p>Выбирая структуру, мы выбираем, какие операции будут быстрыми, а какие — дорогими.</p></div>
+
+<h2>Сравнение операций</h2>
+<div class="table-wrap"><table><tr><th>Операция</th><th>Массив</th><th>Односвязный список</th></tr>
+<tr><td>Доступ по индексу</td><td>O(1)</td><td>O(n)</td></tr>
+<tr><td>Вставка в начало</td><td>O(n)</td><td>O(1)</td></tr>
+<tr><td>Поиск значения</td><td>O(n)</td><td>O(n)</td></tr></table></div>
+
+<h2>Узел списка</h2>
+<p>Список состоит из узлов: каждый хранит значение и ссылку на следующий узел.</p>
+<pre><code>struct Node {
+    int value;
+    Node* next;
+};</code></pre>
+
+<h2>Попробуйте сами</h2>
+<p>Добавляйте и удаляйте узлы и смотрите, как меняется цепочка.</p>
+<div class="demo" data-demo="list"></div>
+</article></div></div>
+<script src="/components/courses.js"></script><script src="/components/list-demo.js"></script><script src="/components/layout.js"></script></body></html>
