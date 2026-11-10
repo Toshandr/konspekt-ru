@@ -1,0 +1,25 @@
+/* Раскладка курса: сайдбар + контент, страница курса (превью лекций) */
+.layout{display:grid;grid-template-columns:280px minmax(0,1fr);gap:2.5rem;align-items:start;align-content:start;padding:2rem 1.25rem 4rem}
+.sidebar{position:sticky;top:8rem;max-height:calc(100vh - 9rem);overflow:auto;font-size:.95rem}
+.sidebar h3{margin:0 0 .6rem;font-size:1.05rem}
+.sidebar h3 a{color:var(--ink);text-decoration:none}
+.sidebar ul{list-style:none;margin:0;padding:0}
+.sidebar a{display:block;padding:.35rem .75rem;border-left:2px solid var(--line);color:var(--ink);text-decoration:none}
+.sidebar a:hover{background:var(--code)}
+.sidebar a.active{border-left-color:var(--accent);color:var(--accent);font-weight:600}
+.sidebar ul ul a{padding-left:1.5rem;font-size:.88rem;color:var(--muted)}
+.sidebar ul ul a.active{color:var(--accent)}
+.sidebar .empty{color:var(--muted)}
+.course-title{margin:0 0 1rem;font-size:clamp(2rem,6vw,4rem);line-height:1.02;font-weight:800;letter-spacing:-.025em;text-transform:uppercase;overflow-wrap:anywhere}
+.course-about{max-width:62ch;margin:0 0 1.25rem;color:var(--muted)}
+.meta{margin:0 0 2.5rem;padding:.75rem 0;border-block:1px solid var(--line)}
+.meta p{margin:.25rem 0}
+.contents-title{margin:0 0 1rem;font-size:2rem;letter-spacing:-.01em}
+.contents{list-style:none;margin:0;padding:0;display:grid;gap:.6rem}
+.lec{display:grid;grid-template-columns:2.5rem 1fr;gap:.75rem;padding:1rem 1.25rem;background:var(--surface);border:1px solid var(--line);border-radius:10px;color:var(--ink);text-decoration:none}
+.lec:hover{border-color:var(--accent)}
+.lec .n{font-size:1.5rem;font-weight:800;color:var(--accent)}
+.lec b{font-size:1.15rem}
+.lec small{display:block;color:var(--muted);font-size:.92rem}
+.soon{font-size:.8rem;font-style:normal;color:var(--muted);border:1px solid var(--line);border-radius:4px;padding:0 .4rem;margin-left:.4rem}
+@media(max-width:860px){.layout{grid-template-columns:1fr;gap:1.25rem}.sidebar{position:static;max-height:none}}

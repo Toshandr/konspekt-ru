@@ -1,0 +1,13 @@
+# маршрут|исходник в src/|id курса|заголовок  (маршрут без .html -> папка/index.html)
+/|index.html||Конспекты.ру
+/main|main.html||Главная
+/structeres|course.html|structeres|Структуры данных
+/algorithms|course.html|algorithms|Алгоритмы
+/oop|course.html|oop|ООП
+/labs|course.html|labs|Примеры лабораторных
+/structeres/lecture1|lectures/STRUCTERES/lecture1.html|structeres|Что такое структуры данных
+/structeres/lecture2|stub.html|structeres|Линейный односвязный список
+/structeres/lecture3|stub.html|structeres|Стек и очередь
+/structeres/lecture4|stub.html|structeres|Деревья
+/oop/lecture1|lectures/OOP/lecture.html|oop|Введение в ООП
+/404.html|stub.html||Страница не найдена
