@@ -9,5 +9,13 @@
 /structeres/lecture2|stub.html|structeres|Линейный односвязный список
 /structeres/lecture3|stub.html|structeres|Стек и очередь
 /structeres/lecture4|stub.html|structeres|Деревья
-/oop/lecture1|lectures/OOP/lecture.html|oop|Введение в ООП
+/oop/lecture1|lectures/OOP/lecture1.html|oop|Объектно-ориентированный подход в программировании
+/oop/lecture2|lectures/OOP/lecture2.html|oop|Введение в классы
+/oop/lecture3|lectures/OOP/lecture3.html|oop|Использование классов на практике
+/oop/lecture4|lectures/OOP/lecture4.html|oop|Наследование в языке C++
+/oop/lecture5|lectures/OOP/lecture5.html|oop|Виртуальные методы
+/oop/lecture6|lectures/OOP/lecture6.html|oop|Вложенные классы
+/oop/lecture7|lectures/OOP/lecture7.html|oop|Дружественные функции
+/oop/lecture8|lectures/OOP/lecture8.html|oop|Шаблоны (параметризованные типы)
+/oop/lecture9|lectures/OOP/lecture9.html|oop|Методология программирования
 /404.html|stub.html||Страница не найдена

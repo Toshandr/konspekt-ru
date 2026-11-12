@@ -23,3 +23,17 @@
 .lec small{display:block;color:var(--muted);font-size:.92rem}
 .soon{font-size:.8rem;font-style:normal;color:var(--muted);border:1px solid var(--line);border-radius:4px;padding:0 .4rem;margin-left:.4rem}
 @media(max-width:860px){.layout{grid-template-columns:1fr;gap:1.25rem}.sidebar{position:static;max-height:none}}
+
+@media(max-width:760px){
+  .layout{gap:1rem;padding:1.25rem 1rem 2.5rem}
+  .course-title{font-size:clamp(1.8rem,9vw,2.7rem);margin-bottom:.75rem}
+  .course-about{font-size:.97rem;line-height:1.65}
+  .meta{margin-bottom:1.5rem;padding:.65rem 0;font-size:.92rem}
+  .contents-title{font-size:1.55rem}
+  .contents{gap:.55rem}
+  .lec{grid-template-columns:2rem minmax(0,1fr);gap:.6rem;padding:.85rem .9rem;border-radius:12px}
+  .lec .n{font-size:1.25rem}
+  .lec b{font-size:1rem;line-height:1.4}
+  .lec small{font-size:.85rem;line-height:1.45;margin-top:.2rem}
+  .sidebar{display:none}
+}
