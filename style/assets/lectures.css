@@ -22,7 +22,7 @@
 .lec b{font-size:1.15rem}
 .lec small{display:block;color:var(--muted);font-size:.92rem}
 .soon{font-size:.8rem;font-style:normal;color:var(--muted);border:1px solid var(--line);border-radius:4px;padding:0 .4rem;margin-left:.4rem}
-@media(max-width:860px){.layout{grid-template-columns:1fr;gap:1.25rem}.sidebar{position:static;max-height:none}}
+@media(max-width:860px){.layout{grid-template-columns:minmax(0,1fr);.content{min-width:0};gap:1.25rem}.sidebar{position:static;max-height:none}}
 
 @media(max-width:760px){
   .layout{gap:1rem;padding:1.25rem 1rem 2.5rem}
